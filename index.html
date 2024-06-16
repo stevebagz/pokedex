@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div id="main-container">
+        <header>
+            <h1 id="main-header">Pokemon Data Fetcher</h1>
+        </header>        
+            <div id="app-container">
+            <div id="input-container">
+                <input type="text" placeholder="Enter Pokemon name here" id="input-field"/>
+                <button id="fetch-button">Click to get stats!</button>
+            </div>
+            <div id="fetched-content">
+                <img id="pokemon-sprite" class="hidden-content" src="" alt="Pokemon image">
+                <div id="list-container">
+                <ul id="stats-list-left">
+                    <li id="element-type"></li>
+                    <li id="baseHP"></li>
+                    <li id="base-attack"></li>
+                    <li id="base-defense"></li>
+                </ul>
+                <ul id="stats-list-right">
+                    <li id="base-magic-attack"></li>
+                    <li id="base-magic-defense"></li>
+                    <li id="base-speed"></li>
+                    <li id="weight"></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
